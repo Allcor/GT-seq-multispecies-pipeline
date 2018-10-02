@@ -1,0 +1,24 @@
+project_name:
+  "gt_seq_25-05-18_test"
+#
+#
+barcode_file:
+  "/nfs/data/Big_Data/gt_seq/novogene_25_05_2018/processing/20180619-Framboos-Komkommer.xlsm"
+fastq_forward:
+  "/nfs/data/Big_Data/gt_seq/baseclear_06_07_2018/102664/raw_sequences/GT-seq-96-komkommer_34284_UNDETERMINED_L001_R1_001_000000000-BRLJT.fastq.gz"
+fastq_reverse:
+  "/nfs/data/Big_Data/gt_seq/baseclear_06_07_2018/102664/raw_sequences/GT-seq-96-komkommer_34284_UNDETERMINED_L001_R2_001_000000000-BRLJT.fastq.gz"
+species:
+  - "komkommer"
+reference_genome:
+  'braam' : "/nfs/data/Big_Data/Genomes/Rubus_Occidentalis/assembly/Rubus_occidentalis_v1.0.a1.scaffolds.fasta"
+  'framboos' : "/nfs/data/Big_Data/Genomes/Rubus_Occidentalis/assembly/Rubus_occidentalis_v1.0.a1.scaffolds.fasta"
+  'komkommer' : "/nfs/data/Big_Data/Genomes/Cucumis_sativus/bwa_index/cucumber_ChineseLong_v2_genome.fa"
+gff3_file:
+  'braam' : "/bin/gt-seq/Rubus_pilot/framboos_pilot_nonredundant.gff3"
+  'framboos' : "/bin/gt-seq/Rubus_pilot/framboos_pilot_nonredundant.gff3"
+  'komkommer' : "/bin/gt-seq/Cucumis_pilot/Cucumis_pilot.gff3"
+probeseq_file:
+  'braam' : "/bin/gt-seq/Rubus_pilot/Braspberry_GTseq171_ProbeSeqs.csv"
+  'framboos' : "/bin/gt-seq/Rubus_pilot/Braspberry_GTseq171_ProbeSeqs.csv"
+  'komkommer' : "/bin/gt-seq/Cucumis_pilot/flanking_sequences_komkommer_snps_ProbeSeqs.csv"

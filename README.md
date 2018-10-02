@@ -80,4 +80,4 @@ see also [Snakefile](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob
    - text file with statistics for each SNP
 
 
-![dag.svg](GT-seq-multispecies-pipeline/dag.png)   
+![dag.svg](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob/master/dag.png?raw=true)   

@@ -1,4 +1,4 @@
-see also [Snakefile](http://gitlab.naktuinbouw.net/bioinformatics/gt-seq/blob/master/new_pipeline/Snakefile) and [config.yaml](http://gitlab.naktuinbouw.net/bioinformatics/gt-seq/blob/master/new_pipeline/config.yaml)
+see also [Snakefile](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob/master/Snakefile) and [config.yaml](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob/master/config.yaml)
 
 
 #### merging reads with Pear 

@@ -7,7 +7,7 @@ import os
 configfile: "config.yaml"
 
 MAIN_DIR = os.getcwd()+'/'
-SCRIPTS_DIR = "./"
+SCRIPTS_DIR = "./scripts/"
 
 BASE_NAME = MAIN_DIR+config['project_name']
 

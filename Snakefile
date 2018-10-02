@@ -7,7 +7,7 @@ import os
 configfile: "config.yaml"
 
 MAIN_DIR = os.getcwd()+'/'
-SCRIPTS_DIR = "/bin/gt-seq/new_pipeline/"
+SCRIPTS_DIR = "./"
 
 BASE_NAME = MAIN_DIR+config['project_name']
 

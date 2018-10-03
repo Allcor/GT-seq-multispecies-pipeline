@@ -1,5 +1,7 @@
 see also [Snakefile](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob/master/Snakefile) and [config.yaml](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob/master/config.yaml)
 
+> The outline of this pipeline is not up to date. This is mostly stuff to do more regorous testing and having intermediate data analesys. 
+
 
 #### merging reads with Pear 
 

@@ -7,7 +7,7 @@ see also [Snakefile](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob
 #### Demultiplexing
 
  - **script:**
-   - [RG_tagger.py](http://gitlab.naktuinbouw.net/bioinformatics/gt-seq/blob/master/new_pipeline/RG_tagger.py)
+   - [RG_tagger.py](GT-seq-multispecies-pipeline/scripts/RG_tagger.py)
  - **purpose:**
    - Splitting up the reads belonging to different species
    - tagging reads with the sample they belong to (read group). 
@@ -23,7 +23,7 @@ see also [Snakefile](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob
 #### Adding readgroups
 
  - **script:**
-   - [make_header.py](http://gitlab.naktuinbouw.net/bioinformatics/gt-seq/blob/master/new_pipeline/make_header.py)
+   - [make_header.py](GT-seq-multispecies-pipeline/scripts/make_header.py)
  - **purpose:**
    - including the readgroups to the header of a SAM/BAM file
  - **input:**
@@ -43,7 +43,7 @@ see also [Snakefile](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob
 
  - **script:**
     - vcf_filter.py
-    - [vcf_locationselect.py](http://gitlab.naktuinbouw.net/bioinformatics/gt-seq/blob/master/new_pipeline/vcf_locationselect.py)
+    - [vcf_locationselect.py](GT-seq-multispecies-pipeline/scripts/vcf_gtseq_filters.py)
  - **purpose:**
     - indicate locations previously selected
     - indicate other locations with informative SNP
@@ -58,7 +58,7 @@ see also [Snakefile](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob
 
  - **script:**
     - vcf_filter.py
-    - [vcf_locationselect.py](http://gitlab.naktuinbouw.net/bioinformatics/gt-seq/blob/master/new_pipeline/vcf_locationselect.py)
+    - [vcf_locationselect.py](GT-seq-multispecies-pipeline/scripts/vcf_gtseq_filters.py)
  - **purpose:**
     - removing all the positions we are not interested in.
  - **input:**
@@ -69,7 +69,7 @@ see also [Snakefile](https://github.com/Allcor/GT-seq-multispecies-pipeline/blob
 #### Creating pics for each SNP
 
  - **script:**
-   - [GTseq_SummaryFigures_vcf.py](http://gitlab.naktuinbouw.net/bioinformatics/gt-seq/blob/master/new_pipeline/GTseq_SummaryFigures_vcf.py)
+   - [GTseq_SummaryFigures_vcf.py](GT-seq-multispecies-pipeline/scripts/GTseq_SummaryFigures_vcf.py)
  - **purpose:**
    - create images showing quality of the SNP's among all samples in the gt-seq library
  - **input:**
